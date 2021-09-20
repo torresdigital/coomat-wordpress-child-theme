@@ -22,6 +22,7 @@ Updated: 2021-09-20 00:44:41
 body *:focus { outline-offset: none;  outline: none } body { background-color: #fff; }
 
 /*Head*/
+.np-top-left-section-wrapper {font-weight: 600; }
 
 /*Logo*/
 
@@ -63,6 +64,9 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
     display: initial;
 }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
+    border-radius: 3px;
+}
+.navigation .nav-links a {
     border-radius: 3px;
 }
 
@@ -630,3 +634,4 @@ like a charm in your responsive design!
     and (max-device-height: 281px) {
 
 }
+
