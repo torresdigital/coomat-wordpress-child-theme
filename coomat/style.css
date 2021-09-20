@@ -21,6 +21,17 @@ Updated: 2021-09-20 00:44:41
 
 body *:focus { outline-offset: none;  outline: none } body { background-color: #fff; }
 
+html iframe {
+    margin: 45px auto;
+    position: relative;
+    display: block;
+}
+
+
+
+
+
+
 /*Head*/
 .np-top-left-section-wrapper {font-weight: 600; }
 
