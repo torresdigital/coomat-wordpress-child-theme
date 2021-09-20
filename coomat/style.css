@@ -26,7 +26,13 @@ html iframe {
     position: relative;
     display: block;
 }
-
+.navigation .nav-links a, .bttn, button, input[type="button"],
+input[type="reset"], input[type="submit"],
+.widget_search .search-submit, .np-archive-more .np-button:hover {
+    border-color: #37a530;
+    font-weight: 600;
+    border-radius: 3px;
+}
 
 
 
@@ -39,6 +45,9 @@ html iframe {
 
 /*Menu*/
 .fa-home::before { content: "\f18c";}
+#site-navigation ul li a {
+    font-weight: 600;
+}
 
 /*Home*/
 .news_portal_social_media .social-link a {
@@ -77,7 +86,7 @@ html iframe {
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
     border-radius: 3px;
 }
-.navigation .nav-links a {
+.navigation .nav-links a, .news_portal_recent_posts .np-recent-posts-wrapper .np-post-thumb {
     border-radius: 3px;
 }
 .np-secondary-block-wrap .np-post-thumb, .news_portal_default_tabbed .np-post-thumb,
