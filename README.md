@@ -1,2 +1,2 @@
-# coomat-wordpress-child-theme
+# Coomat Wordpress Child Theme
 Coomat Wordpress Child Theme
