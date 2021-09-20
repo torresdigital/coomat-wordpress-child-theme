@@ -77,7 +77,10 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
     background: #f7f7f7 none repeat scroll 0 0;
     border-radius: 3px;
 }
-
+.news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-meta span,
+.news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-meta span a {
+    font-size: 12px;
+}
 
 
 
