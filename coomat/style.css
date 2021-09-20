@@ -69,6 +69,15 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 .navigation .nav-links a {
     border-radius: 3px;
 }
+.np-secondary-block-wrap .np-post-thumb, .news_portal_default_tabbed .np-post-thumb,
+.news_portal_featured_posts .np-single-post-wrap .np-post-thumb {
+    border-radius: 5px;
+}
+
+
+
+
+
 
 /*Woocommerce*/
 
@@ -90,6 +99,16 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
     border-bottom: 2px solid #333;
     padding-bottom: 20px;
 }
+.site-info, .site-info a {  color: #000; font-weight: 600;}
+.site-info {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
 /*BootStrap*/
 
 /*==================================================
@@ -634,4 +653,3 @@ like a charm in your responsive design!
     and (max-device-height: 281px) {
 
 }
-
