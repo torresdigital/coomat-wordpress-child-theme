@@ -69,6 +69,14 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 .navigation .nav-links a {
     border-radius: 3px;
 }
+.np-secondary-block-wrap .np-post-thumb, .news_portal_default_tabbed .np-post-thumb {
+    border-radius: 5px;
+}
+
+
+
+
+
 
 /*Woocommerce*/
 
@@ -644,4 +652,3 @@ like a charm in your responsive design!
     and (max-device-height: 281px) {
 
 }
-
