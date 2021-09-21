@@ -26,6 +26,13 @@ html iframe {
     position: relative;
     display: block;
 }
+
+.page-template-default.page.page-id-554 iframe {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
 .navigation .nav-links a, .bttn, button, input[type="button"],
 input[type="reset"], input[type="submit"],
 .widget_search .search-submit, .np-archive-more .np-button:hover {
@@ -34,8 +41,17 @@ input[type="reset"], input[type="submit"],
     border-radius: 3px;
 }
 
-
-
+#importante #cont_c82202ea0d7207cffa325059167827b0 {
+    max-width: 346px !important;
+    border-radius: 3px;
+    width: 100% !important;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+}
 
 
 /*Head*/
@@ -47,6 +63,7 @@ input[type="reset"], input[type="submit"],
 .fa-home::before { content: "\f18c";}
 #site-navigation ul li a {
     font-weight: 600;
+    text-transform: initial;
 }
 
 /*Home*/
@@ -74,7 +91,7 @@ input[type="reset"], input[type="submit"],
 
 /*Blog*/
 .np-block-title {
-    text-transform: capitalize;
+    text-transform: initial;
 }
 .news_portal_default_tabbed ul.widget-tabs li a {
     text-transform: initial;
