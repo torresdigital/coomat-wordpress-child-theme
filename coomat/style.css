@@ -34,7 +34,11 @@ input[type="reset"], input[type="submit"],
     border-radius: 3px;
 }
 
-
+#importante #cont_c82202ea0d7207cffa325059167827b0 {
+    max-width: 346px !important;
+    border-radius: 3px;
+    width: 100% !important;
+}
 
 
 
@@ -74,7 +78,7 @@ input[type="reset"], input[type="submit"],
 
 /*Blog*/
 .np-block-title {
-    text-transform: capitalize;
+    text-transform: initial;
 }
 .news_portal_default_tabbed ul.widget-tabs li a {
     text-transform: initial;
