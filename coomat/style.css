@@ -51,6 +51,7 @@ input[type="reset"], input[type="submit"],
 .fa-home::before { content: "\f18c";}
 #site-navigation ul li a {
     font-weight: 600;
+    text-transform: initial;
 }
 
 /*Home*/
