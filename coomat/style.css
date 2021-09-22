@@ -116,6 +116,13 @@ input[type="reset"], input[type="submit"],
     position: relative;
     font-size: 19px;
 }
+.texto-50-anos p {
+    font-size: 17px;
+    margin: 0 auto;
+    line-height: 23px;
+    margin: 0 auto;
+    max-width: 95%;
+}
 
 /*Head*/
 .np-top-left-section-wrapper {font-weight: 600; }
