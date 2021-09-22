@@ -166,6 +166,14 @@ input[type="reset"], input[type="submit"],
     color: #fff;
     text-transform: initial;
 }
+.np-block-wrapper.carousel-posts.np-clearfix.layout1 .np-post-title.small-size {
+    text-align: center;
+}
+.np-block-wrapper.carousel-posts.np-clearfix.layout1 .np-post-title.small-size a {
+    font-size: 19px;
+    text-shadow: 1px 1px 2px #333;
+    line-height: 25px;
+}
 
 
 
