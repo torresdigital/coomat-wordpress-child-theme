@@ -86,7 +86,36 @@ input[type="reset"], input[type="submit"],
     margin: 0 auto;
     display: inline-flex;
 }
+.coomat-video h3 {
+    font-size: 21px;
+}
+.texto-50-anos h2 {
+    color: #057300;
+    text-shadow: 1px 1px 2px #b3b3b3;
+    animation: shadow-pulse 1s infinite;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    width: 100%;
+    max-width: 30%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    border-radius: 30px;
+    margin-bottom: 12px;
+}
 
+.texto-50-anos h2 { color: #057300;}
+
+.coomat-video h3 {
+    color: #057300;
+    text-shadow: 1px 1px 1px #e1e1e1;
+    border-bottom: 2px solid #dbdbdb;
+    padding-bottom: 12px;
+    max-width: 80%;
+    text-align: center;
+    margin: 5px auto 20px;
+    position: relative;
+    font-size: 19px;
+}
 
 /*Head*/
 .np-top-left-section-wrapper {font-weight: 600; }
@@ -741,3 +770,5 @@ like a charm in your responsive design!
     and (max-device-height: 281px) {
 
 }
+
+@keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}
