@@ -85,6 +85,7 @@ input[type="reset"], input[type="submit"],
     position: relative;
     margin: 0 auto;
     display: inline-flex;
+    max-height: 390px;
 }
 .coomat-video h3 {
     font-size: 21px;
@@ -159,8 +160,12 @@ input[type="reset"], input[type="submit"],
 
 .lSPrev, .lSNext, .post-cats-list a { border-radius: 30px;}
 
-
-
+/*Font das Noticias na Home*/
+.news_portal_featured_slider .featured-posts .np-single-post .np-post-content .np-post-title a {
+    font-size: 14px;
+    color: #fff;
+    text-transform: initial;
+}
 
 
 
