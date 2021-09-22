@@ -53,6 +53,23 @@ input[type="reset"], input[type="submit"],
     font-weight: 600;
 }
 
+/*Coomat video na Home*/
+#coomat-video iframe {
+    position: relative;
+    width: 100%;
+    margin: 0 2px;
+    display: block;
+    height: 428px;
+    max-width: 50%;
+}
+#coomat-video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: inherit;
+}
+
 
 /*Head*/
 .np-top-left-section-wrapper {font-weight: 600; }
@@ -89,6 +106,12 @@ input[type="reset"], input[type="submit"],
 
 .lSPrev, .lSNext, .post-cats-list a { border-radius: 30px;}
 
+
+
+
+
+
+
 /*Blog*/
 .np-block-title {
     text-transform: initial;
@@ -117,6 +140,11 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 .news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-meta span,
 .news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-meta span a {
     font-size: 12px;
+}
+html .np-block-title {
+    color: #057300;
+    border-top: unset;
+    border-radius: 3px;
 }
 
 
