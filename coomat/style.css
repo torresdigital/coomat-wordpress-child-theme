@@ -59,7 +59,7 @@ input[type="reset"], input[type="submit"],
     width: 100%;
     margin: 0 2px;
     display: block;
-    height: 428px;
+    height: 390px;
     max-width: 50%;
 }
 #coomat-video {
@@ -103,7 +103,7 @@ input[type="reset"], input[type="submit"],
     margin-bottom: 12px;
 }
 
-.texto-50-anos h2 { color: #057300;}
+.texto-50-anos a { color: #057300;}
 
 .coomat-video h3 {
     color: #057300;
