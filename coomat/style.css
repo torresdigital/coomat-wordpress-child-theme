@@ -371,14 +371,18 @@ html .np-block-title {
 @media only screen and (max-width : 480px) {
 
     .np-related-section-wrapper { text-align: center; }
-    h1 { font-size: 30px;  }
+    h1 { font-size: 22px;  }
     #coomat-video iframe {height: 325px;}
     .sub-toggle { border-radius: 30px; }
+    #np-scrollup {
+        top: 683px;
+        border-radius: 30px;
+    }
 
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
-    
+
     #coomat-video iframe { height: 263px; }
 
 }
