@@ -377,6 +377,8 @@ html .np-block-title {
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
+    
+    #coomat-video iframe { height: 263px; }
 
 }
 
