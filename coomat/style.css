@@ -19,7 +19,7 @@ Updated: 2021-09-20 00:44:41
 
 /*Padrao*/
 
-p, a. span, iframe, h1, h2, h3, h4, h5 {word-wrap: break-word;  word-break: break-all;}
+p, a, span, iframe, h1, h2, h3, h4, h5 {word-wrap: break-word;  word-break: break-all;}
 
 body *:focus { outline-offset: none;  outline: none } body { background-color: #fff; }
 
