@@ -351,6 +351,9 @@ html .np-block-title {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    
+    #coomat-video {display: inline-block}
+    #coomat-video iframe, #texto-50-anos {max-width: 100%; }
 
 }
 /* Extra Small Devices, Phones */
@@ -361,12 +364,9 @@ html .np-block-title {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-    .np-related-section-wrapper {
-        text-align: center;
-    }
-    h1 {
-        font-size: 30px;
-    }
+    .np-related-section-wrapper { text-align: center; }
+    h1 { font-size: 30px;  }
+    #coomat-video iframe {height: 325px;}
 
 }
 /* Custom, iPhone Retina */
