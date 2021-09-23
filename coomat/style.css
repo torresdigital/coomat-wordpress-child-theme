@@ -367,6 +367,7 @@ html .np-block-title {
     .np-related-section-wrapper { text-align: center; }
     h1 { font-size: 30px;  }
     #coomat-video iframe {height: 325px;}
+    .sub-toggle { border-radius: 30px; }
 
 }
 /* Custom, iPhone Retina */
