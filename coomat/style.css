@@ -361,6 +361,13 @@ html .np-block-title {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+    .np-related-section-wrapper {
+        text-align: center;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
